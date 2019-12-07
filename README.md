@@ -11,7 +11,7 @@ Three Dimensional Sensors:
   - Gyroscope
   - Magnetometer
   
-Derived 3-D Sensor:
+Derived 3-D Sensors:
   - Gravity Sensor
   - Linear Acceleration
   - Rotation Sensor
@@ -22,13 +22,13 @@ Scalar Sensors:
   
 Rather than play a 2v2 or 1v1 game as is usual in shuffleboard, each player took turns attempting a maximum score with 4 pucks. Each player would initiate the smartphone sensors, push 4 pucks - one at a time - down the board, then stop the sensors, record the score, and save the sensor data. Then the player would repeat the process two more times (each player had 3 attempts to achieve a maximum score). After the player finished his/her three attempts, the smartphone was transferred to the next player. 
 
-Each player's highest score with the cleanest data was uploaded to github. If during an attenpt a puck was knocked off the board by another puck, that attempt was ommitted for this analysis and saved for a later one. 
+Each player's highest score with the cleanest data was uploaded to github. If during an attempt a puck was knocked off the board by another puck, that attempt was ommitted for this analysis and saved for a later one. 
 
-After analyzing the data, an intervention would be proposed, and each player would take three more turns in an attempt to improve their high score. 
+After analyzing the data, an intervention was proposed, and each player took three more turns in an attempt to improve their high score. 
   
 ## Discussion
 
-The purpose of this experiment is to evaluate the differences in sensor data between an expert shuffleboard player and a novice shuffleboard player. There were 5 players: 1 expert, 2 intermediate, and 2 novice. 
+The purpose of this experiment is to evaluate the differences in sensor data between an expert shuffleboard player and a novice shuffleboard player, then use the data to recommend a strategy for the novice player to improve their high score. There were 5 players: 1 expert, 2 intermediate, and 2 novice. 
 
 Our hypothesis was that acceleration along the Y-axis of the accelerometer (the speed at which a player pushed the puck down the board) could predict expert vs novice. 
 
