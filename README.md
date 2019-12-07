@@ -35,6 +35,6 @@ Our hypothesis was that acceleration along the Y-axis of the accelerometer (the 
 We would like to perform the following functions in R Studio:
   - Visualize the pre-intervention data
   - Run a K-means cluster with centers=2 (expert vs novice) and centers=3 (expert vs intermediate vs novice)
-  - Determine the which sensor made the most significant difference in score
+  - Determine which sensor made the most significant difference in score (hypothesis suggests the accelerometer)
   - Visualize the post-intervention data
   - Run a K-means cluster to see if any status changed.
