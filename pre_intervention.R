@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # 1. Load Alysandra's pre-intervention data
-a_accm_pre <- read.csv(file = "/Users/kylepearce/Desktop/Teachers\ College/Fall\ 2019/EDM/Group\ Project/Pre_Intervention/alysandra_accm_pre.csv")
+a_accm_pre <- read.csv(file = "alysandra_accm_pre.csv")
 
 # 2. Remove the first row of metadata and NA values
 a_accm_pre <- a_accm_pre[complete.cases(a_accm_pre), ]
@@ -33,7 +33,7 @@ a_accm_pre$player_name <- alysandra
 
 ## David ##
 # 1. Load David's pre-intervention data
-d_accm_pre <- read.csv(file = "/Users/kylepearce/Desktop/Teachers\ College/Fall\ 2019/EDM/Group\ Project/Pre_Intervention/david_accm_pre.csv")
+d_accm_pre <- read.csv(file = "david_accm_pre.csv")
 
 # 2. Remove the first row of metadata and NA values
 d_accm_pre <- d_accm_pre[complete.cases(d_accm_pre), ]
@@ -51,7 +51,7 @@ d_accm_pre$player_name <- david
 
 ## Joellyn ##
 # 1. Load Joellyn's pre-intervention data
-j_accm_pre <- read.csv(file = "/Users/kylepearce/Desktop/Teachers\ College/Fall\ 2019/EDM/Group\ Project/Pre_Intervention/joellyn_accm_pre.csv")
+j_accm_pre <- read.csv(file = "joellyn_accm_pre.csv")
 
 # 2. Remove the first row of metadata and NA values
 j_accm_pre <- j_accm_pre[complete.cases(j_accm_pre), ]
@@ -69,7 +69,7 @@ j_accm_pre$player_name <- joellyn
 
 ## Shu-Yi ##
 # 1. Load Shu-Yi's pre-intervention data
-s_accm_pre <- read.csv(file = "/Users/kylepearce/Desktop/Teachers\ College/Fall\ 2019/EDM/Group\ Project/Pre_Intervention/shuyi_accm_pre.csv")
+s_accm_pre <- read.csv(file = "shuyi_accm_pre.csv")
 
 # 2. Remove the first row of metadata and NA values
 s_accm_pre <- s_accm_pre[complete.cases(s_accm_pre), ]
@@ -87,7 +87,7 @@ s_accm_pre$player_name <- shuyi
 
 ## Yiwei ##
 # 1. Load Yiwei's pre-intervention data
-y_accm_pre <- read.csv(file = "/Users/kylepearce/Desktop/Teachers\ College/Fall\ 2019/EDM/Group\ Project/Pre_Intervention/yiwei_accm_pre.csv")
+y_accm_pre <- read.csv(file = "yiwei_accm_pre.csv")
 
 # 2. Remove the first row of metadata and NA values
 y_accm_pre <- y_accm_pre[complete.cases(y_accm_pre), ]
