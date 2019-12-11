@@ -7,25 +7,25 @@ library(tidyverse)
 
 D1 <- select(pre_intervention_df, time, Y_value, player_name)
 
-# Filter out Alysandra and add a column with her score
+# Filter out Alysandra and add a column with her score (1 = Novice, 2 = Expert)
 DA <- filter(D1, player_name == alysandra)
-DA$score <- 2
+DA$score <- 1
 
-# Filter out David and add a column with her score
+# Filter out David and add a column with his score (1 = Novice, 2 = Expert)
 DD <- filter(D1, player_name == david)
-DD$score <- 6
+DD$score <- 2
 
-# Filter out Joellyn and add a column with her score
+# Filter out Joellyn and add a column with her score (1 = Novice, 2 = Expert)
 DJ <- filter(D1, player_name == joellyn)
-DJ$score <- 2
+DJ$score <- 1
 
-# Filter out Shu-Yi and add a column with her score
+# Filter out Shu-Yi and add a column with her score (1 = Novice, 2 = Expert)
 DS <- filter(D1, player_name == shuyi)
-DS$score <- 4
+DS$score <- 1
 
-# Filter out Yiwei and add a column with her score
+# Filter out Yiwei and add a column with her score (1 = Novice, 2 = Expert)
 DY <- filter(D1, player_name == yiwei)
-DY$score <- 3
+DY$score <- 1
 
 # Add score column to D1
 
