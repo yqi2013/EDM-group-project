@@ -30,7 +30,7 @@ After analyzing the data, an intervention was proposed, and each player took thr
 
 The purpose of this experiment is to evaluate the differences in sensor data between an expert shuffleboard player and a novice shuffleboard player, then use the data to recommend a strategy for the novice player to improve their high score. There were 5 players: 1 expert, 2 intermediate, and 2 novice. 
 
-Our hypothesis was that acceleration along the Y-axis of the accelerometer (the speed at which a player pushed the puck down the board) could predict expert vs novice. 
+Our hypothesis was that acceleration along the Y-axis of the accelerometer (the force with which a player pushed the puck down the board) could predict expert vs novice. 
 
 We would like to perform the following functions in R Studio:
   - Visualize the pre-intervention data
